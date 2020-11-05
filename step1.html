@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Blueprint: On Scroll Effect Layout</title>
+	<meta name="description" content="Flower pollination" />
+	<meta name="keywords" content="on scroll, effect, slide in, layout, template, transition, javascript" />
+	<meta name="author" content="Codrops" />
+	<link rel="shortcut icon" href="../favicon.ico">
+	<link rel="stylesheet" type="text/css" href="css/reset.css" />
+	<link rel="stylesheet" type="text/css" href="css/master.css" />
+	<link rel="stylesheet" type="text/css" href="css/typo.css" />
+	<script src="js/modernizr.custom.js"></script>
+</head>
+
+<body>
+<a href="index.html" id="home-button"><img src="images/home.png" alt="home button"></a>
+	<div class="container">
+		<header class="clearfix">
+			<span>Step 1</span>
+			<h1>THE RULE OF ATTRACTION</h1>
+		</header>
+		<div id="cbp-so-scroller" class="cbp-so-scroller">
+			<section class="cbp-so-section">
+				<article class="cbp-so-side cbp-so-side-left">
+					<h2>How do plants reproduce?</h2>
+					<p>Plants rely on pollinators to reproduce and so they have adapted, over time, to become more attractive to them. The pollinators are drawn to plants with open or flat tubular flowers with lots of pollen and nectar. A flower's scent can have particular appeal, and its bright colours may lure them in.</p>
+				</article>
+				<figure class="cbp-so-side cbp-so-side-right">
+					<video id="video02" controls width="800">
+					<source src="media/bee-video02.webm"> type="video/webm">
+					<source src="media/bee-video02.mp4" type="video/mpa">
+
+					</video>
+				</figure>
+			</section>
+
+			<section class="cbp-so-section">
+				<figure class="cbp-so-side cbp-so-side-left">
+					<img src="images/bird.png" alt="bird and flower">
+				</figure>
+				<article class="cbp-so-side cbp-so-side-right">
+					<h2>Who are the pollinators?</h2>
+					<p>How does pollen get from one flower get from one flower to another? Flowers must rely on vectors to move pollen. These vectors can include wind, water, birds, insects, butterflies, bats, and other animals that visit flowers. We call animals or insects that transfer pollen from plant to plant “pollinators”.</p>
+				</article>
+			</section>
+
+			<footer id="step1-footer">
+				<ul>
+					<li><a href="step5.html">Previous page</a></li>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="step2.html">Next page</a></li>
+				</ul>
+			</footer>
+
+		</div>
+	</div>
+	<script src="js/classie.js"></script>
+	<script src="js/cbpScroller.js"></script>
+	<script>
+		new cbpScroller(document.getElementById('cbp-so-scroller'));
+	</script>
+</body>
+
+</html>
